@@ -5,11 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Визитка семейного психолога</title>
     <style>
-        /* Основной стиль страницы */
         body {
             font-family: Arial, sans-serif;
             background-color: #f2f4f8;
-            background-image: url('https://raw.githubusercontent.com/AG217/business-card/main/background.jpg'); /* Проверьте, что ссылка работает */
+            background-image: url('https://raw.githubusercontent.com/AG217/business-card/main/background.jpg');
             background-size: cover;
             background-attachment: fixed;
             background-position: center;
@@ -21,7 +20,6 @@
             color: #333;
         }
 
-        /* Основной стиль карточки */
         .card {
             width: 90%;
             max-width: 400px;
@@ -34,7 +32,6 @@
             transform: translateY(20px);
         }
 
-        /* Стиль заголовка карточки */
         .card-header {
             background: linear-gradient(145deg, #5a9ea8, #4b8993);
             padding: 25px;
@@ -54,7 +51,6 @@
             color: #d7eef2;
         }
 
-        /* Стиль тела карточки */
         .card-body {
             padding: 20px 25px;
         }
@@ -63,27 +59,26 @@
             font-size: 1em;
             display: flex;
             align-items: center;
-            color: #333;
+            color: #444;
         }
         .icon {
             background-color: #5a9ea8;
             border-radius: 50%;
-            width: 25px;
-            height: 25px;
+            width: 22px;
+            height: 22px;
             display: flex;
             align-items: center;
             justify-content: center;
             color: #ffffff;
-            font-size: 0.9em;
+            font-size: 0.8em;
             margin-right: 12px;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
         }
 
-        /* Стиль кнопки */
         .button {
             display: inline-block;
             padding: 12px 30px;
-            background-color: #5a9ea8;
+            background: linear-gradient(145deg, #5a9ea8, #4b8993);
             color: #fff;
             text-align: center;
             border-radius: 8px;
@@ -98,7 +93,6 @@
             box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
         }
 
-        /* Анимация появления */
         @keyframes fadeIn {
             from { opacity: 0; transform: translateY(20px); }
             to { opacity: 1; transform: translateY(0); }
@@ -113,10 +107,9 @@
         <h2>Семейный психолог</h2>
     </div>
     <div class="card-body">
-        <p><span class="icon">📞</span>Телефон: +972 53-275-5601</p>
+        <p><a href="tel:+972532755601" style="text-decoration: none; color: #444;"><span class="icon">📞</span>Телефон: +972 53-275-5601</a></p>
         <p><span class="icon">✉️</span>Эл. почта: slipknot7771@yandex.ru</p>
-        <p><span class="icon">🌐</span>Сайт: в разработке</p>
-        <a href="mailto:example@email.com?subject=Запрос на консультацию&body=Здравствуйте,%0D%0A%0D%0AМое имя:%0D%0AФамилия:%0D%0AОписание проблемы:%0D%0AУдобное время для консультации:%0D%0AКонтактный номер:%0D%0A%0D%0AС уважением," 
+        <a href="mailto:slipknot7771@yandex.ru?subject=Запрос на консультацию&body=Здравствуйте,%0D%0A%0D%0AМое имя:%0D%0AФамилия:%0D%0AОписание проблемы:%0D%0AУдобное время для консультации:%0D%0AКонтактный номер:%0D%0A%0D%0AС уважением," 
            class="button">Связаться</a>
     </div>
 </div>
